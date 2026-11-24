@@ -1,0 +1,23 @@
+{
+    
+    "version": "0.2.0",
+    "configurations": [
+
+
+        {
+            "name": "Attach Edge",
+            "request": "attach",
+            "type": "msedge",
+            "url": "http://localhost/AIMS",
+            "webRoot": "${workspaceFolder}"
+        },
+
+        {
+            "type": "msedge",
+            "request": "launch",
+            "name": "Launch Edge against localhost",
+            "url": "http://localhost/AIMS",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}
